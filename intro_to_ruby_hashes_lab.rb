@@ -49,7 +49,7 @@ def monopoly_with_fourth_tier
 	monopoly4 = monopoly_with_third_tier
 	monopoly4[:railroads][:names][:reading_railroad]['mortgage_value'] = '$100'
 	monopoly4[:railroads][:names][:pennsylvania_railroad]['mortgage_value'] = '$200'
-	binding.pry 
+	
 	monopoly4[:railroads][:names][:b_and_o_railroad]['mortgage_value'] = '$400'
 	monopoly4[:railroads][:names][:shortline] = '$800';
 	
