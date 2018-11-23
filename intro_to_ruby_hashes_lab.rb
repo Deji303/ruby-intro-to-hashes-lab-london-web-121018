@@ -48,7 +48,7 @@ def monopoly_with_fourth_tier
 	#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!
 	monopoly4 = monopoly_with_third_tier
 	monopoly4[:railroads][:names][:reading_railroad]['mortgage_value'] = '$100'
-		monopoly4[:railroads][:names]
+		monopoly4[:railroads][:names][:pennsylvania_railroad][]
 	
 	
 end
